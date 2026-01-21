@@ -66,5 +66,5 @@ detector_idioma/
 
 **(Para la interfaz gráfica)** desde la raíz del proyecto, ejecuta:
 ```
-   python src/main.py
+   python src/gui.py
 ```
