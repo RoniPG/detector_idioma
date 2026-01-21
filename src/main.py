@@ -5,10 +5,16 @@ def detectar_idioma(texto: str) -> str:
     """
     Detecta el idioma de un texto dado
     """
+
+    texto = texto.strip()
+
+    if len(texto) < 5:
+        return "El texto es demasiado corto"
+    
     try:
         return detect(texto)
     except LangDetectException:
-        return "Idioma no detectable"
+        return "No se pudo detectar el idioma"
 
 
 if __name__ == "__main__":
