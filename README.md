@@ -1,6 +1,7 @@
 # 🌍 Detector de Idioma
 
 Proyecto que identifica el idioma de un texto ingresado por el usuario utilizando la librería **langdetect**.
+Incluye una versión por consola (CLI) y una interfaz gráfica sencilla (GUI) con  **tkinter**.
 
 ---
 
@@ -23,6 +24,7 @@ detector_idioma/
 │
 ├── src/                 
 │   └── main.py
+│   └── gui.py
 │
 ├── .gitignore
 ├── README.md
@@ -57,7 +59,12 @@ detector_idioma/
 
 ## :rocket: Uso
 
-Desde la raíz del proyecto, ejecuta:
+**(Para la version en consola)** desde la raíz del proyecto, ejecuta:
    ```
     python src/main.py
    ```
+
+**(Para la interfaz gráfica)** desde la raíz del proyecto, ejecuta:
+```
+   python src/main.py
+```
